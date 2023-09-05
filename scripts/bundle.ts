@@ -1,3 +1,5 @@
+#!/usr/bin/env -S deno run --allow-env --allow-read --allow-write
+
 import { bundle } from "x/emit";
 import manifest from "../manifest.json" assert { type: "json" };
 
