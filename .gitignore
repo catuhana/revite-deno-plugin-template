@@ -1,0 +1,9 @@
+# if your plugin requires customisation and
+# have private fields, ignore the dist/ folder
+
+# dist/
+
+# remove this next line after using this
+# template to vendor lockfile to repository
+
+deno.lock

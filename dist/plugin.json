@@ -1,0 +1,1 @@
+{"format":1,"version":"1","namespace":"tuhana","id":"revite-deno-plugin-template","entrypoint":"()=>{\n    const client = window.controllers.client.getReadyClient();\n    console.log(\"Plugin started!\", client);\n    return {\n        onUnload: ()=>{\n            console.info(\"Plugin stopped!\");\n        }\n    };\n};\n"}

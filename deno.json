@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "bundle": "deno run --allow-env --allow-read --allow-write scripts/bundle.ts"
+  },
+  "imports": {
+    "x/emit": "https://deno.land/x/emit@0.27.0/mod.ts"
+  }
+}
