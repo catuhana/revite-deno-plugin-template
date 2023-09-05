@@ -10,3 +10,5 @@ declare global {
     };
   }
 }
+
+export type { Client, Session };
